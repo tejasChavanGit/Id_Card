@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&family=Poppins:wght@300&family=Roboto+Mono:wght@100&display=swap");
+
+section {
+    height: 100vh;
+    width: 100%;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Noto Sans JP", "sans-serif", "Poppins", "Roboto Mono",
+    "monospace";
+}
+
+.card {
+    height: 550px;
+    width: 320px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px white;
+    background: whitesmoke;
+    text-align: center;
+}
+
+.card img {
+    height: 20vh;
+    width: 20vh;
+    margin: 8%;
+    border-radius: 100%;
+    border: 85%;
+    box-shadow: 0px 0px 5px 15px white;
+}
+
+button {
+    font-size: large;
+    margin: 30px;
+    border-radius: 15%;
+    border-style: hidden;
+    box-shadow: 0px 0px 3px 5px white;
+}
+
+.icon1 i {
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.icon2 i {
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 55%;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img {
+    height: 25px;
+    width: auto;
+    margin: 25px;
+    box-shadow: 0px 0px 5px 10px white;
+}
+
+.fa-regular.fa-heart:hover {
+    color: red;
+}
+
+.fa-regular.fa-comment:hover {
+    color: lightgreen;
+}
